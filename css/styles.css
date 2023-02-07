@@ -57,7 +57,7 @@ img {
     text-decoration: none;
     margin-right: 76px;
     padding-top: 24px;
-    padding-bottom: 24px;
+    padding-bottom: 28px;
 }
 .logo-footer{
     color:  #F4F4FD;
@@ -120,7 +120,7 @@ img {
     content: '';
     position: absolute;
     left: 0;
-    bottom: -24px;
+    bottom: -30px;
     width: 100%;
     height: 4px;
     border-radius: 2px;
@@ -463,7 +463,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50% -50%) scale(1) rotate(0);
+    transform: translate(-50%, -50%) scale(1) rotate(0);
     width: 408px;
     min-height: 576px;
     background-color: #FCFCFC;
@@ -476,6 +476,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     transform: translate(-50% -50%) scale(0) rotate(180deg);
 }
 .modal-close{
+    
     width: 24px;
     height: 24px;
     background-color: #E7E9FC;
@@ -483,4 +484,9 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     border-radius: 50%;
     display: block;
     margin-left: auto;
+    
+}
+.modal-close-icon{
+    position: absolute;
+    
 }
