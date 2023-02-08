@@ -217,6 +217,7 @@ padding-bottom: 120px;
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin-top: 8px;
 }
 .soc-items{
     width: 40px;
@@ -284,6 +285,7 @@ padding-bottom: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 8px;
     background: #F4F4FD;
     border-radius: 4px;
     border: 1px solid #F4F4FD;
@@ -366,7 +368,9 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     padding: 12px 24px;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-top-text{
     position: absolute;
@@ -423,7 +427,8 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 }
 
 .customers-icon{
-    fill: #8E8F99;;
+    fill: #8E8F99;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* ================/Hero==================== */
 
@@ -438,6 +443,9 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     letter-spacing: var(--letter-spacing);
     color: #FFFFFF;
     margin-bottom: 24px;
+}
+.soc-list-footer{
+    gap: 16px;
 }
 .soc-link-footer {
     background: rgba(255, 255, 255, 0.1);
